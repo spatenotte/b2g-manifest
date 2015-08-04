@@ -7,7 +7,7 @@
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
-  <remote fetch="git://github.com/spatenotte" name="forks"/>
+  <remote fetch="https://github.com/spatenotte" name="forks"/>
   
 
   <!-- B2G specific things. -->
