@@ -1,14 +1,5 @@
 <?xml version="1.0" ?>
 <manifest>
-
-  <remote fetch="https://android.googlesource.com/" name="aosp"/>
-  <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
-  <remote fetch="git://github.com/mozilla/" name="mozilla"/>
-  <remote fetch="git://github.com/apitrace/" name="apitrace"/>
-  <remote fetch="git://codeaurora.org/" name="caf"/>
-  <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
-  <remote fetch="https://github.com/spatenotte" name="forks"/>
-
   <include name="base.xml"/>
 
   <!-- B2G specific things. -->
@@ -16,8 +7,7 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
 
-  <project name="gaia" path="gaia" remote="forks" revision="master"/>
-  <project name="gecko" path="gecko" remote="forks" revision="master"/>
+
 
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
   <project name="fake-qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="master"/>
